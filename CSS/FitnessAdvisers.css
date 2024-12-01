@@ -1,0 +1,27 @@
+.advisers .image{
+    height:500px;
+}
+
+.advisers .image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.advisers .join-us p{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width:700px){
+    .advisers .image{
+        height:auto;
+    }
+    
+    .advisers .image img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+}

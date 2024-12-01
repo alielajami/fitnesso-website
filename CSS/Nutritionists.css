@@ -1,0 +1,50 @@
+.nutritionists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    margin-top:100px;
+    padding: 0 15px;
+
+    font-size: 20px;
+}
+
+.nutritionists-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.nutritionists p{
+    opacity: 1;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nutritionists-text .text-header{
+    font-weight: 600;
+}
+
+
+@media (max-width:700px){
+    .nutritionists{
+        margin-top:50px;
+        gap: 20px;
+    }
+
+    .nutritionists #start{
+        display: block;
+    }
+
+    .nutritionists .join-us{
+        margin-top: 50px;
+    }
+}

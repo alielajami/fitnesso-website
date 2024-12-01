@@ -1,0 +1,168 @@
+.gettingStarted {
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 220px 15px;
+}
+
+#formContainer {
+    padding: 15px 0;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+#formContainer form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f5f5f5; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formContainer label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: 500;
+    opacity: 0.6;
+    margin-bottom: 5px;
+}
+
+#formContainer input[type="text"],
+#formContainer input[type="email"],
+#formContainer input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+#formContainer button[type="submit"] {
+    display: block; 
+    width: 100%; 
+    padding: 15px 0; 
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px; 
+
+}
+
+#formContainer button[type="submit"]:hover {
+    background-color: rgb(190, 172, 172);
+    color: black;
+}
+
+#successMessage{
+    margin-top: 20px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#formInfo {
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+@media (max-width: 1000px){
+    .gettingStarted{
+        padding: 100px 15px;
+    }
+    #formInfo{
+        font-size: 20px !important;
+    }
+}
+
+.dynamicElementsContainer {
+    background-color: #f5f5f5;
+    border-radius: 20px; 
+    padding: 15px; 
+    max-width: 600px;
+    width: 100%; 
+    margin: auto; 
+    margin-top: 50px;
+}
+
+.additionalInfoForm label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: 500;
+    opacity: 0.6;
+    margin-bottom: 5px;
+}
+
+.additionalInfoForm input[type="text"],
+.additionalInfoForm input[type="number"],
+.additionalInfoForm input[type="email"],
+.additionalInfoForm select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.additionalInfoForm button[type="submit"] {
+    display: block;
+    width: calc(100% - 22px);
+    padding: 15px 0;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+}
+
+.additionalInfoForm button[type="submit"]:hover {
+    background-color: rgb(190, 172, 172);
+    color: black;
+}
+
+.resultContainer {
+    margin-top: 20px; 
+}
+
+.infoTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infoTable th,
+.infoTable td {
+    border: 1px solid #ccc;
+    padding: 8px; 
+    text-align: left;
+}
+
+
+.register-footer{
+    padding: 50px 15px !important;
+    margin-top: 50px !important;
+}
